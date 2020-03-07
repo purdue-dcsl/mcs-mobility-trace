@@ -1,0 +1,2 @@
+# mcs-mobility-trace
+We conducted a real-world mobile crowdsensing campaign on our university campus (Purdue) over one month (Feb 7 - Mar 7, 2018) with 50 users to evaluate CROWDBIND (our EWSN 20 paper) plus 4 competing solutions. The students went about their daily routine with their smartphones running the five different software packages, collecting sensor data (pressure). This is the anonymized mobility trace of these 50 students over a 100 sq. km. area.
