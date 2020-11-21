@@ -6,13 +6,6 @@ If you use this trace, please cite our paper:
 Heng Zhang, Michael A. Roth (Google), Rajesh K. Panta (AT&T Labs Research), He Wang, and Saurabh Bagchi, “CrowdBind: Fairness Enhanced Late Binding Task Scheduling in Mobile Crowdsensing,” At the 17th International Conference on Embedded Wireless Systems and Networks (EWSN), pp. 1-12, Feb 17-19, 2020, Lyon, France. (Best paper award winner)
 
 
-## Command to use
-1. The mobility trace of the users are stored in the file called "trace.npy"
-2. In Python 2 or 3:
-    * First import numpy by "import numpy";
-    * Then load the traces by "traces = numpy.load('trace.npy')";
-    * Now you can play with the "traces" Python object. Just type "traces" in the Python environment and you will see some example entries.
-
 ## How the data looks like
 This mobility trace is stored as numpy 2-d array. 
 * The elements of each row: [('id', 'int'), ('latitude', 'float'), ('longitude', 'float'), ('timestamp', 'int')])
